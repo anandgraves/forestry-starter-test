@@ -16,3 +16,10 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: page_section
+  type: blocks
+  label: Page Section
+  template_types: []
+  config:
+    min: 
+    max: 
