@@ -19,7 +19,8 @@ fields:
 - name: page_section
   type: blocks
   label: Page Section
-  template_types: []
+  template_types:
+  - hero-image
   config:
     min: 
     max: 
