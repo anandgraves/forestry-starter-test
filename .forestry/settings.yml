@@ -13,8 +13,8 @@ sections:
   match: "**/*"
   templates:
   - page
-upload_dir: upload
-public_path: "/forestry"
+upload_dir: forestry
+public_path: https://res.cloudinary.com/dlsvtbju7/image/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
