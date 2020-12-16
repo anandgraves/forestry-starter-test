@@ -13,7 +13,7 @@ sections:
   match: "**/*"
   templates:
   - page
-upload_dir: ''
+upload_dir: forestry
 public_path: "/forestry"
 front_matter_path: ''
 use_front_matter_path: 
