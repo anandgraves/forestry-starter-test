@@ -38,24 +38,15 @@ fields:
     min: 
     max: 
     step: 
-- name: link
-  type: field_group
-  config: {}
-  fields:
-  - name: page
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: pages
-        section: pages
-    label: Page
-  - name: link
-    type: text
-    config:
-      required: false
-    label: Link
-    description: Enter a link to a page, e.g. /about, /about/team
-  label: Link
+- name: link_to_page
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      file: content/pages/about.md
+      section: pages
+  label: Link To Page
+  description: When the Hero Image is clicked, select the Page it should open.
