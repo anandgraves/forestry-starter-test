@@ -1,4 +1,40 @@
 ---
 label: Hero Image
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Showcase your product or show a mood image
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Shows the title on top of the image
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: Shows the subtitle below the title, on top of the image
+- name: button_text
+  type: text
+  config:
+    required: false
+  label: Button Text
+  description: 'If entered, it shows a button, on top of the image. Enter a call to
+    action. '
+- name: darkness_image
+  type: number
+  label: Darkness Image
+  description: This is to show light text on a light image or dark text on a dark
+    image by changing the darkness of the image. Choose a number from 0.01 to 0.99
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
