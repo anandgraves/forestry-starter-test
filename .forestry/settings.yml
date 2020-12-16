@@ -7,8 +7,6 @@ sections:
 - type: document
   path: content
   label: Page
-- type: heading
-  label: Content
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
