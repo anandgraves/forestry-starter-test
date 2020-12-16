@@ -48,3 +48,24 @@ fields:
       type: pages
       section: pages
   label: Page
+- name: link
+  type: field_group
+  config: {}
+  fields:
+  - name: page
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: pages
+    label: Page
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+    description: Enter a link to a page, e.g. /about, /about/team
+  label: Link
