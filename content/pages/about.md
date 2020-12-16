@@ -4,7 +4,7 @@ description: test set text
 page_section:
 - template: hero-image
   darkness_image: '0.3'
-  image: "/uploads/assorti-1-copy.jpg"
+  image: "/forestry/v1607686290/forestry/Making-Pigments_ztlyvl.jpg"
   title: Samples Box
   subtitle: Order now before 24th december and receive a 25% discount
   button_text: Order The Samples Box Now!
