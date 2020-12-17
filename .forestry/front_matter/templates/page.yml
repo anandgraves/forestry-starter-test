@@ -21,6 +21,7 @@ fields:
   label: Page Section
   template_types:
   - hero-image
+  - footer
   config:
     min: 
     max: 
