@@ -10,5 +10,7 @@ page_section:
   button_text: Order The Samples Box Now!
   link_to_page:
   - content/pages/about.md
+- template: footer
+  title: Dit is de footer
 
 ---
